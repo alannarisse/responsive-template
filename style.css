@@ -8,6 +8,22 @@ img {
     width:100%;
 }
 
+.button {
+    display:inline-block;
+    background-color: rgb(149, 0, 255);
+    color: white;
+    text-decoration:none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border:2px solid rgb(149, 0, 255);
+}
+.button:hover {
+    background-color: white;
+    color: rgb(149, 0, 255);
+    border:2px solid rgb(149, 0, 255);
+}
+
+
 /* START of Mobile Menu */
 .nav, .desktop {
     display: block;
@@ -170,9 +186,9 @@ main {
         display: none;
     }
     /* END of desktop menu for 768 media query */
-
 }
 
+/* If the screen is smaller than 768 */
 @media only screen and (max-width: 768px) {
     .flex {
         flex-direction:column;
